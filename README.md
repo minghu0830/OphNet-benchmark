@@ -1,7 +1,8 @@
 # OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding
 
 ## News
-* **[2024.06.13]** The manuscript can be found on [arXiv](https://arxiv.org/pdf/2406.07471).
+* **[Jul, 2024]** OphNet was accepted by ECCV2024.
+* **[Jun, 2024]** The manuscript can be found on [arXiv](https://arxiv.org/pdf/2406.07471).
 
 ## Dataset and Code Release Progress
 - [ ] Add videos and annotation files
