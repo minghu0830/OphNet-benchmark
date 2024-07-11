@@ -1,5 +1,5 @@
 # OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding
-<a href='https://mammal-net.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2306.00576'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=sY71Oag2JMw)
+<a href=''><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/pdf/2406.07471'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)]()
 
 ## News
 * **[Jul, 2024]** OphNet was accepted by ECCV2024.
@@ -19,7 +19,7 @@ OphNet
 │   ├── task4_phase_localization
 │   ├── task5_phase_anticipation
 ├── Original Video Files (≈300G)
-├── Processed Video Files (Res.: 256 X 256, FPS: 25, ≈300G)
+├── Processed Video Files (Res.: 256 X 256, FPS: 25, ≈100)
 ├── Trimmed Video Files (Res.: 256 X 256, FPS: 25, ≈300G)
 ```
 
