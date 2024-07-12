@@ -19,8 +19,8 @@ OphNet
 │   ├── task4_phase_localization
 │   ├── task5_phase_anticipation
 ├── Original Video Files (≈300G)
-├── Processed Video Files (Res.: 256 X 256, FPS: 25, ≈100)
-├── Trimmed Video Files (Res.: 256 X 256, FPS: 25, ≈300G)
+├── Processed Video Files (Res.: 256 X 256, FPS: 25, ≈100G)
+├── Trimmed Video Files (Res.: 256 X 256, FPS: 25, ≈400G)
 ```
 
 ## Dataset and Code Release Progress
