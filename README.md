@@ -30,7 +30,7 @@ OphNet
 
 ## Citation
 ```python
-@misc{hu2024ophnetlargescalevideobenchmark,
+@article{hu2024ophnetlargescalevideobenchmark,
       title={OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding}, 
       author={Ming Hu and Peng Xia and Lin Wang and Siyuan Yan and Feilong Tang and Zhongxing Xu and Yimin Luo and Kaimin Song and Jurgen Leitner and Xuelian Cheng and Jun Cheng and Chi Liu and Kaijing Zhou and Zongyuan Ge},
       year={2024},
