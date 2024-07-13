@@ -1,5 +1,5 @@
 # OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding
-<a href=''>https://minghu0830.github.io/OphNet-benchmark/<img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/pdf/2406.07471'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)]()
+<a href='https://minghu0830.github.io/OphNet-benchmark/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/pdf/2406.07471'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)]()
 
 ## News
 * **[Jul, 2024]** OphNet was accepted by ECCV2024.
