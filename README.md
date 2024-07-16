@@ -34,7 +34,7 @@ OphNet
 ├── Processed Video Files (Res.: 256x256, FPS: 25, ≈100G)
 ├── Trimmed Video Files (Res.: 256x256, FPS: 25, ≈400G)
 ```
-## Dataset Download
+## Challenge/Workshop
 Coming soon...
 
 ## Citation
