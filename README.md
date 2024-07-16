@@ -2,7 +2,7 @@
 <a href='https://minghu0830.github.io/OphNet-benchmark/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/pdf/2406.07471'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)]()
 
 ## News
-* **[Jul, 2024]** OphNet V2 is in preparation——larger in scale and more accurate!
+* **[Jul, 2024]** OphNet V2 is in preparation——larger scale, more accurate, and more experimental results!
 * **[Jul, 2024]** OphNet was accepted by ECCV2024.
 * **[Jun, 2024]** The manuscript can be found on [arXiv](https://arxiv.org/pdf/2406.07471).
 
