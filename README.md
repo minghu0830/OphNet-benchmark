@@ -18,7 +18,7 @@ Surgical scene perception via videos is critical for advancing robotic surgery, 
 
 ## Dataset Download
 ### Dowload
-Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address within 48 hours.
+Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 
 ### Directory Structure
 ```
