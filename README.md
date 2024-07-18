@@ -40,12 +40,9 @@ Coming soon...
 ## Citation
 ```python
 @article{hu2024ophnet,
-      title={OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding}, 
-      author={Ming Hu and Peng Xia and Lin Wang and Siyuan Yan and Feilong Tang and Zhongxing Xu and Yimin Luo and Kaimin Song and Jurgen Leitner and Xuelian Cheng and Jun Cheng and Chi Liu and Kaijing Zhou and Zongyuan Ge},
-      year={2024},
-      eprint={2406.07471},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2406.07471}, 
+  title={OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding},
+  author={Hu, Ming and Xia, Peng and Wang, Lin and Yan, Siyuan and Tang, Feilong and Xu, Zhongxing and Luo, Yimin and Song, Kaimin and Leitner, Jurgen and Cheng, Xuelian and others},
+  journal={arXiv preprint arXiv:2406.07471},
+  year={2024}
 }
 ```
