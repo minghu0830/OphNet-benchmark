@@ -1,8 +1,11 @@
 # OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding
-<a href='https://minghu0830.github.io/OphNet-benchmark/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/pdf/2406.07471'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)]()
+
+<a href='https://minghu0830.github.io/OphNet-benchmark/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/pdf/2406.07471'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![Static Badge](https://img.shields.io/badge/HF-yellow?logoColor=violet&label=%F0%9F%A4%97%20Dataset%20)]()
+
 
 ## News
-* **[Jul, 2024]** OphNet V2 is in preparation——larger scale, more accurate, and more experimental results!
+* **[Oct, 2024]** We realeased OphNet2024 ! More information can be found in Data Preparation section.
+* **[Jul, 2024]** OphNet2024 is in preparation——larger scale, more accurate, and more experimental results!
 * **[Jul, 2024]** OphNet was accepted by ECCV2024.
 * **[Jun, 2024]** The manuscript can be found on [arXiv](https://arxiv.org/pdf/2406.07471).
 
@@ -16,10 +19,14 @@ Surgical scene perception via videos is critical for advancing robotic surgery, 
     <img src="./image/loca.png"/> <br />
 </p>
 
-## Dataset Download
-### Dowload
-Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
+## Dataset Preparation
+### Download
+Download Source: [HuggingFace]() [Baidu Netdisk]() [Google Drive]()
 
+The table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label]() 
+
+<!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
+-->
 ### Directory Structure
 ```
 OphNet
