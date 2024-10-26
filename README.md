@@ -4,7 +4,7 @@
 
 
 ## News
-* **[Oct, 2024]** We realeased OphNet2024 ! More information can be found in Data Preparation section.
+* **[Oct, 2024]** We realeased OphNet2024 ! More information can be found in Data Preparation.
 * **[Jul, 2024]** OphNet2024 is in preparation——larger scale, more accurate, and more experimental results!
 * **[Jul, 2024]** OphNet was accepted by ECCV2024.
 * **[Jun, 2024]** The manuscript can be found on [arXiv](https://arxiv.org/pdf/2406.07471).
@@ -24,20 +24,21 @@ Surgical scene perception via videos is critical for advancing robotic surgery, 
 ```
 OphNet-benchmark
 ├── annotation
+│   ├── OphNet2024_surgery.csv
 │   ├── OphNet2024_all.csv
 │   ├── OphNet2024_challenge.csv
 ├── data_processing
 │   ├── clipper.py
 ├── OphNet2024_all (≈305G, all untrimmed videos)
 ```
+*  **OphNet2024_surgery.csv**: Annotated 1969 untrimmed videos for surgical types, with the first label as the primary surgery. Selected 745 videos for time-boundary annotation.
+*  **OphNet2024_all.csv**: Original version.
+*  **OphNet2024_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
 
 ### Download
 *  **Video Download Source**: [HuggingFace]() | [Baidu Netdisk]() | [Google Drive]()
+*  **Label Description**: The table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label](https://docs.google.com/spreadsheets/d/1p5lURkth587-lxYwd6eOSmSxPpvIqvyuOKW-4B49PT0/edit?usp=sharing) 
 
-*  **Label Description**: the table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label](https://docs.google.com/spreadsheets/d/1p5lURkth587-lxYwd6eOSmSxPpvIqvyuOKW-4B49PT0/edit?usp=sharing) 
-
-*  **OphNet2024_all.csv**: Original version
-*  **OphNet2024_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
 
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
