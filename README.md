@@ -4,7 +4,7 @@
 
 
 ## News
-* **[Oct, 2024]** We realeased OphNet2024 ! More information can be found in Data Preparation.
+* **[Oct, 2024]** We realeased OphNet2024 challenge dataset ! More information can be found in Data Preparation.
 * **[Jul, 2024]** OphNet2024 is in preparation——larger scale, more accurate, and more experimental results!
 * **[Jul, 2024]** OphNet was accepted by ECCV2024.
 * **[Jun, 2024]** The manuscript can be found on [arXiv](https://arxiv.org/pdf/2406.07471).
