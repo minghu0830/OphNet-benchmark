@@ -41,9 +41,20 @@ OphNet-benchmark
 
 ### Download
 *  **Untrimmed Videos Download Source**: [HuggingFace]() | [Baidu Netdisk]() | [Google Drive]()
+
+     Use the following command to merge and extract the archive:
+    ```python
+    cat OphNet2024_all.tar.gz.* | tar xzvf -
+    ```
+   
 *  **Label Description**: The table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label](https://docs.google.com/spreadsheets/d/1p5lURkth587-lxYwd6eOSmSxPpvIqvyuOKW-4B49PT0/edit?usp=sharing) 
 *  **Trimmed Videos Download Source**: You can directly run the script we provided for trimming, or use the link to download: [HuggingFace]() | [Baidu Netdisk]() | [Google Drive]()
 
+     Use the following command to merge and extract the archive:
+    ```python
+    cat OphNet2024_trimmed.tar.gz.* | tar xzvf -
+    ```
+   
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
 
