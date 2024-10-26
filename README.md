@@ -31,9 +31,13 @@ OphNet-benchmark
 │   ├── clipper.py
 ├── OphNet2024_all (≈305G, all untrimmed videos)
 ```
+-**annotation**
 *  **OphNet2024_surgery.csv**: Annotated 1969 untrimmed videos for surgical types, with the first label as the primary surgery. Selected 745 videos for time-boundary annotation.
 *  **OphNet2024_all.csv**: Original version.
 *  **OphNet2024_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
+
+-**data_processing**
+*  **clipper.py**: extract clips based on annotated time boundaries from untrimmed videos.
 
 ### Download
 *  **Video Download Source**: [HuggingFace]() | [Baidu Netdisk]() | [Google Drive]()
