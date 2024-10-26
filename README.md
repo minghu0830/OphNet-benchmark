@@ -29,8 +29,8 @@ OphNet-benchmark
 │   ├── OphNet2024_challenge.csv
 ├── data_processing
 │   ├── clipper.py
-├── OphNet2024_all (≈305G, all untrimmed videos)
-├── OphNet2024_trimmed (≈305G, all trimmed videos)
+├── OphNet2024_all (≈305G, all untrimmed videos--original resolution and FPS)
+├── OphNet2024_trimmed (≈305G, all trimmed videos--256x256 resolution and 25 FPS)
 ```
 -**annotation**
 *  **OphNet2024_surgery.csv**: Annotated 1,969 untrimmed videos for surgical types, with the first label as the primary surgery. Selected 745 videos for time-boundary annotation.
