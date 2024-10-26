@@ -20,27 +20,28 @@ Surgical scene perception via videos is critical for advancing robotic surgery, 
 </p>
 
 ## Dataset Preparation
-### Download
-Download Source: [HuggingFace]() [Baidu Netdisk]() [Google Drive]()
+### Directory Structure
+```
+OphNet-benchmark
+├── annotation
+│   ├── OphNet2024_all.csv
+│   ├── OphNet2024_challenge.csv
+├── data_processing
+│   ├── clipper.py
+├── OphNet2024_all (≈305G, all untrimmed videos)
+```
 
-The table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label]() 
+### Download
+*  **Video Download Source**: [HuggingFace]() | [Baidu Netdisk]() | [Google Drive]()
+
+*  **Label Description**: the table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label](https://docs.google.com/spreadsheets/d/1p5lURkth587-lxYwd6eOSmSxPpvIqvyuOKW-4B49PT0/edit?usp=sharing) 
+
+*  **OphNet2024_all.csv**: Original version
+*  **OphNet2024_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
 
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
-### Directory Structure
-```
-OphNet
-├── Annotation Files
-│   ├── all
-│   ├── task1_primary_surgery_recognition
-│   ├── task2_phase_recognition
-│   ├── task3_operation_recognition
-│   ├── task4_phase_localization
-│   ├── task5_phase_anticipation
-├── Original Video Files (≈300G)
-├── Processed Video Files (Res.: 256x256, FPS: 25, ≈100G)
-├── Trimmed Video Files (Res.: 256x256, FPS: 25, ≈400G)
-```
+
 ## Challenge/Workshop
 Coming soon...
 
