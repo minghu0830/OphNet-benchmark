@@ -47,7 +47,7 @@ OphNet-benchmark
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
 
-## Challenge/Workshop
+## Challenge
 Coming soon...
 
 ## Citation
