@@ -51,18 +51,21 @@ OphNet-benchmark
     cat OphNet2024_all.tar.gz.* | tar xzvf -
     ```
 
-*  **Trimmed Videos Download Source**: You can directly run the script we provided for trimming, or use the link to download: [HuggingFace]() | [Baidu Netdisk]() | [Google Drive]()
-
-     Use the following command to merge and extract the archive:
+*  **Trimmed Videos Download Source**: run the script we provided for trimming:
     ```python
-    cat OphNet2024_trimmed.tar.gz.* | tar xzvf -
+    python data_processing/cliper.py
     ```
+    
+      or use the link to download: [HuggingFace]() | [Baidu Netdisk]() | [Google Drive]() Use the following command to merge and extract the archive:
+   ```python
+   cat OphNet2024_trimmed.tar.gz.* | tar xzvf -
+   ```
    
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
 
 ## TO DO
-- [x] Release untrimmed videos
+- [ ] Release untrimmed videos
 - [ ] Release trimmed videos
 - [ ] Release annotation files  (OphNet2024_Label.csv✅, OphNet2024_surgery.csv✅, OphNet2024_all.csv, OphNet2024_challenge.csv, OphNet2024_challenge_phase.csv)
 - [ ] Release baseline experimental results and checkpoints
