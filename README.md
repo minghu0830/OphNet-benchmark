@@ -25,9 +25,9 @@ Surgical scene perception via videos is critical for advancing robotic surgery, 
 OphNet-benchmark
 ├── annotation
 │   ├── OphNet2024_surgery.csv
-│   ├── OphNet2024_all.csv
-│   ├── OphNet2024_challenge.csv
-│   ├── OphNet2024_challenge_phase.csv
+│   ├── OphNet2024_loca_all.csv
+│   ├── OphNet2024_loca_challenge.csv
+│   ├── OphNet2024_loca_challenge_phase.csv
 ├── data_processing
 │   ├── clipper.py
 ├── OphNet2024_all (≈305G, 1,969 untrimmed videos--original resolution and FPS)
@@ -35,9 +35,9 @@ OphNet-benchmark
 ```
 -**annotation**
 *  **OphNet2024_surgery.csv**: Annotated 1,969 untrimmed videos for surgical types, with the first label as the primary surgery. Selected 744 videos for time-boundary annotation.
-*  **OphNet2024_all.csv**: The original version of the time boundary annotations.
-*  **OphNet2024_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
-*  **OphNet2024_challenge_phase.csv**: A complete phase clip in OphNet2024_challenge.csv may be split due to covering multiple operations. Therefore, in OphNet2024_challenge_phase.csv, we merge consecutive clips of the same phase.
+*  **OphNet2024_loca_all.csv**: The original version of the time boundary annotations.
+*  **OphNet2024_loca_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
+*  **OphNet2024_loca_challenge_phase.csv**: A complete phase clip in OphNet2024_challenge.csv may be split due to covering multiple operations. Therefore, in OphNet2024_challenge_phase.csv, we merge consecutive clips of the same phase.
 
 -**data_processing**
 *  **clipper.py**: extract clips based on annotated time boundaries from untrimmed videos.
