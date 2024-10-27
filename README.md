@@ -34,7 +34,7 @@ OphNet-benchmark
 ├── OphNet2024_trimmed (≈305G, 17,510 trimmed videos from 743 videos with time-boundary annotation--original resolution and FPS)
 ```
 -**annotation**
-*  **OphNet2024_surgery.csv**: Annotated 1,969 untrimmed videos for surgical types, with the first label as the primary surgery. Selected 744 videos for time-boundary annotation.
+*  **OphNet2024_surgery.csv**: Annotated 1,969 untrimmed videos for surgical types, with the first label as the primary surgery. Selected 743 videos for time-boundary annotation.
 *  **OphNet2024_loca_all.csv**: The original version of the time boundary annotations.
 *  **OphNet2024_loca_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
 *  **OphNet2024_loca_challenge_phase.csv**: A complete phase clip in OphNet2024_challenge.csv may be split due to covering multiple operations. Therefore, in OphNet2024_challenge_phase.csv, we merge consecutive clips of the same phase.
