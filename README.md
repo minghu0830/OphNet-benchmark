@@ -64,7 +64,7 @@ OphNet-benchmark
 ## TO DO
 - [x] Release untrimmed videos
 - [ ] Release trimmed videos
-- [ ] Release annotation files  (OphNet2024_Label.csv✅, OphNet2024_surgery.csv, OphNet2024_all.csv, OphNet2024_challenge.csv, OphNet2024_challenge_phase.csv)
+- [ ] Release annotation files  (OphNet2024_Label.csv✅, OphNet2024_surgery.csv✅, OphNet2024_all.csv, OphNet2024_challenge.csv, OphNet2024_challenge_phase.csv)
 - [ ] Release baseline experimental results and checkpoints
 
 ## Challenge
