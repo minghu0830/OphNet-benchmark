@@ -59,6 +59,12 @@ OphNet-benchmark
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
 
+## TO DO
+- [x] Release untrimmed videos
+- [ ] Release trimmed videos
+- [ ] Release annotation files  (OphNet2024_Label.csv✅, OphNet2024_surgery.csv, OphNet2024_all.csv, OphNet2024_challenge.csv)
+- [ ] Release baseline experimental results and checkpoints
+
 ## Challenge
 Coming soon...
 
