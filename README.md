@@ -1,6 +1,6 @@
 # OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Workflow Understanding
 
-<a href='https://minghu0830.github.io/OphNet-benchmark/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/pdf/2406.07471'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![Static Badge](https://img.shields.io/badge/HF-yellow?logoColor=violet&label=%F0%9F%A4%97%20Dataset%20)]()
+<a href='https://minghu0830.github.io/OphNet-benchmark/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/pdf/2406.07471'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![Static Badge](https://img.shields.io/badge/HF-yellow?logoColor=violet&label=%F0%9F%A4%97%20Dataset%20)](https://huggingface.co/datasets/xioamiyh/OphNet2024)
 
 
 ## News
@@ -27,6 +27,7 @@ OphNet-benchmark
 │   ├── OphNet2024_surgery.csv
 │   ├── OphNet2024_loca_all.csv
 │   ├── OphNet2024_loca_challenge.csv
+│   ├── OphNet2024_loca_challenge_trimmed.csv
 │   ├── OphNet2024_loca_challenge_phase.csv
 ├── data_processing
 │   ├── clipper.py
@@ -37,6 +38,7 @@ OphNet-benchmark
 *  **OphNet2024_surgery.csv**: Annotated 1,969 untrimmed videos for surgical types, with the first label as the primary surgery. Selected 743 videos for time-boundary annotation.
 *  **OphNet2024_loca_all.csv**: The original version of the time boundary annotations.
 *  **OphNet2024_loca_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
+*  **OphNet2024_loca_challenge_trimmed.csv**: The OphNet2024_loca_challenge.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py.
 *  **OphNet2024_loca_challenge_phase.csv**: A complete phase clip in OphNet2024_challenge.csv may be split due to covering multiple operations. Therefore, in OphNet2024_challenge_phase.csv, we merge consecutive clips of the same phase.
 
 -**data_processing**
