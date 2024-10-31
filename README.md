@@ -69,7 +69,8 @@ OphNet-benchmark
 
 ## TO DO
 - [x] Release untrimmed videos
-- [x] Release trimmed videos
+- [x] Release trimmed videos--operation level
+- [ ] Release trimmed videos--phase level
 - [x] Release annotation files
 - [ ] Release baseline experimental results and checkpoints
 
