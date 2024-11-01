@@ -29,10 +29,12 @@ OphNet-benchmark
 │   ├── OphNet2024_loca_challenge.csv
 │   ├── OphNet2024_loca_challenge_trimmed.csv
 │   ├── OphNet2024_loca_challenge_phase.csv
+│   ├── OphNet2024_loca_challenge_trimmed.csv
+│   ├── OphNet2024_loca_challenge_phase_trimmed.csv
 ├── data_processing
 │   ├── clipper.py
 ├── OphNet2024_all (≈305G, 1,969 untrimmed videos--original resolution and FPS)
-├── OphNet2024_trimmed_phase ()
+├── OphNet2024_trimmed_phase (≈139G, 14,674 trimmed videos from 743 videos with time-boundary annotation--original resolution and FPS)
 ├── OphNet2024_trimmed_operation (≈139G, 17,508 trimmed videos from 743 videos with time-boundary annotation--original resolution and FPS)
 ```
 -**annotation**
