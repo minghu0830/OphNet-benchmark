@@ -62,10 +62,14 @@ OphNet-benchmark
     ```
     
       or use the link to download: [HuggingFace](https://huggingface.co/datasets/xioamiyh/OphNet2024) | [Baidu Netdisk](available soon). Use the following command to merge and extract the archive:
+   operation level
    ```python
-   cat OphNet2024_trimmed.tar.gz.* | tar xzvf -
+   cat OphNet2024_trimmed_operation.tar.gz.* | tar xzvf -
    ```
-   
+    phase level
+   ```python
+   cat OphNet2024_trimmed_phase.tar.gz.* | tar xzvf -
+   ```  
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
 
