@@ -27,7 +27,6 @@ OphNet-benchmark
 │   ├── OphNet2024_surgery.csv
 │   ├── OphNet2024_loca_all.csv
 │   ├── OphNet2024_loca_challenge.csv
-│   ├── OphNet2024_loca_challenge_trimmed.csv
 │   ├── OphNet2024_loca_challenge_phase.csv
 │   ├── OphNet2024_loca_challenge_trimmed.csv
 │   ├── OphNet2024_loca_challenge_phase_trimmed.csv
