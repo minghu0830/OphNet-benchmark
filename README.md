@@ -40,8 +40,9 @@ OphNet-benchmark
 *  **OphNet2024_surgery.csv**: Annotated 1,969 untrimmed videos for surgical types, with the first label as the primary surgery. Selected 743 videos for time-boundary annotation.
 *  **OphNet2024_loca_all.csv**: The original version of the time boundary annotations.
 *  **OphNet2024_loca_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
-*  **OphNet2024_loca_challenge_trimmed.csv**: The OphNet2024_loca_challenge.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py.
 *  **OphNet2024_loca_challenge_phase.csv**: A complete phase clip in OphNet2024_challenge.csv may be split due to covering multiple operations. Therefore, in OphNet2024_challenge_phase.csv, we merge consecutive clips of the same phase.
+*  **OphNet2024_loca_challenge_trimmed.csv**: The OphNet2024_loca_challenge.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_operation)
+*  **OphNet2024_loca_challenge_phase_trimmed.csv**: The OphNet2024_loca_challenge_phase.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_phase)
 
 -**data_processing**
 *  **clipper.py**: extract clips based on annotated time boundaries from untrimmed videos.
@@ -75,7 +76,7 @@ OphNet-benchmark
 ## TO DO
 - [x] Release untrimmed videos
 - [x] Release trimmed videos--operation level
-- [ ] Release trimmed videos--phase level
+- [x] Release trimmed videos--phase level
 - [x] Release annotation files
 - [ ] Release baseline experimental results and checkpoints
 
