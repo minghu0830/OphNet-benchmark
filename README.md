@@ -65,11 +65,11 @@ OphNet-benchmark
 
    operation level
    ```python
-   cat OphNet2024_trimmed_operation.tar.gz.* | tar xzvf -
+   cat OphNet_trimmed_operation.tar.gz.* | tar xzvf -
    ```
     phase level
    ```python
-   cat OphNet2024_trimmed_phase.tar.gz.* | tar xzvf -
+   cat OphNet_trimmed_phase.tar.gz.* | tar xzvf -
    ```  
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
