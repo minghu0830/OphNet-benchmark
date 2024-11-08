@@ -20,6 +20,9 @@
 </p>
 
 ## Dataset Preparation
+
+**\**Warning\**** We have discovered that some of the trimmed videos we uploaded are corrupted. We are currently fixing these issues, and once we're done, we will re-upload the trimmed videos. You can use the cliper.py script to trim the original videos.
+
 ### Directory Structure
 ```
 OphNet-benchmark
@@ -74,10 +77,10 @@ OphNet-benchmark
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
 
-## TO DO
+## TO DO 
 - [x] Release untrimmed videos
-- [x] Release trimmed videos--operation level
-- [x] Release trimmed videos--phase level
+- [ ] Release trimmed videos--operation level
+- [ ] Release trimmed videos--phase level
 - [x] Release annotation files
 - [ ] Release baseline experimental results and checkpoints
 
