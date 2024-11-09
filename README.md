@@ -21,7 +21,7 @@
 
 ## Dataset Preparation
 
-**\**Warning\**** We have discovered that some of the trimmed videos we uploaded are corrupted. We are currently fixing these issues, and once we're done, we will re-upload the trimmed videos. You can use the cliper.py script to trim the original videos.
+**\**Warning\**** We have discovered that some of the videos we uploaded are corrupted. We are currently fixing these issues, and once we're done, we will re-upload the videos.
 
 ### Directory Structure
 ```
