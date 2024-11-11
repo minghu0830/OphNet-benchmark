@@ -32,8 +32,6 @@ OphNet-benchmark
 │   ├── OphNet2024_loca_all.csv
 │   ├── OphNet2024_loca_challenge.csv
 │   ├── OphNet2024_loca_challenge_phase.csv
-│   ├── OphNet2024_loca_challenge_trimmed.csv
-│   ├── OphNet2024_loca_challenge_phase_trimmed.csv
 ├── data_processing
 │   ├── clipper.py
 ├── OphNet2024_all (≈305G, 1,969 untrimmed videos--original resolution and FPS)
