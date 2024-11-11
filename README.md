@@ -49,7 +49,7 @@ OphNet-benchmark
 -**data_processing**
 *  **clipper.py**: extract clips based on annotated time boundaries from untrimmed videos.
 
--**for trimmed videos in HuggingFace Depository**
+-**for trimmed videos**
 *  **OphNet2024_loca_challenge_trimmed.csv**: The OphNet2024_loca_challenge.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_operation)
 *  **OphNet2024_loca_challenge_phase_trimmed.csv**: The OphNet2024_loca_challenge_phase.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_phase)
 
