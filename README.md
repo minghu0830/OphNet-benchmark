@@ -19,6 +19,7 @@
     <img src="./image/loca.png"/> <br />
 </p>
 
+------------------------------------
 ## Dataset Preparation
 
 **\**Warning\**** We have discovered that some of the videos we uploaded are corrupted. We are currently fixing these issues, and once we're done, we will re-upload the videos.
@@ -48,7 +49,7 @@ OphNet-benchmark
 -**data_processing**
 *  **clipper.py**: extract clips based on annotated time boundaries from untrimmed videos.
 
--**in HuggingFace Depository**
+-**for trimmed videos in HuggingFace Depository**
 *  **OphNet2024_loca_challenge_trimmed.csv**: The OphNet2024_loca_challenge.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_operation)
 *  **OphNet2024_loca_challenge_phase_trimmed.csv**: The OphNet2024_loca_challenge_phase.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_phase)
 
@@ -79,6 +80,15 @@ OphNet-benchmark
 <!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
 -->
 
+------------------------------------
+## Baselines
+Coming soon...
+
+------------------------------------
+## Challenge
+Coming soon...
+
+------------------------------------
 ## TO DO 
 - [x] Release untrimmed videos
 - [ ] Release trimmed videos--operation level
@@ -86,9 +96,7 @@ OphNet-benchmark
 - [x] Release annotation files
 - [ ] Release baseline experimental results and checkpoints
 
-## Challenge
-Coming soon...
-
+------------------------------------
 ## Citation
 ```python
 @article{hu2024ophnet,
