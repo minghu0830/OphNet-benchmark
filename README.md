@@ -4,6 +4,7 @@
 
 
 ## News
+* **[Nov, 2024]** We have repaired several damaged videos. You can now download the dataset again.
 * **[Oct, 2024]** We realeased OphNet2024 challenge dataset ! More information can be found in Data Preparation.
 * **[Jul, 2024]** OphNet2024 is in preparation——larger scale, more accurate, and more experimental results!
 * **[Jul, 2024]** OphNet was accepted by ECCV2024.
@@ -21,9 +22,6 @@
 
 ------------------------------------
 ## Dataset Preparation
-
-**\**Warning\**** We have discovered that some of the videos we uploaded are corrupted. We are currently fixing these issues, and once we're done, we will re-upload the videos.
-
 ### Directory Structure
 ```
 OphNet-benchmark
