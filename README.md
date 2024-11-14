@@ -104,8 +104,8 @@ Coming soon...
 ------------------------------------
 ## TO DO 
 - [x] Release untrimmed videos
-- [ ] Release trimmed videos--operation level
-- [ ] Release trimmed videos--phase level
+- [x] Release trimmed videos--operation level
+- [x] Release trimmed videos--phase level
 - [x] Release annotation files
 - [ ] Release baseline experimental results and checkpoints
 
