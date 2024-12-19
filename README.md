@@ -68,7 +68,7 @@ OphNet2024
 
 ### Download
 *  **Label Description**: The table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label](https://docs.google.com/spreadsheets/d/1p5lURkth587-lxYwd6eOSmSxPpvIqvyuOKW-4B49PT0/edit?usp=sharing) 
-*  **Untrimmed Videos Download Source**: [HuggingFace](https://huggingface.co/datasets/xioamiyh/OphNet2024) | [Baidu Netdisk](available soon)
+*  **Untrimmed Videos Download Source**: [HuggingFace](https://huggingface.co/datasets/xioamiyh/OphNet2024) | [Baidu Netdisk](https://pan.baidu.com/s/1ajcOmPfFQKsA9QJuG5NzPw?pwd=3173)
 
      Use the following command to merge and extract the archive:
     ```python
@@ -80,7 +80,7 @@ OphNet2024
     python data_processing/cliper.py
     ```
     
-      or use the link to download: [HuggingFace](https://huggingface.co/datasets/xioamiyh/OphNet2024) | [Baidu Netdisk](available soon). Use the following command to merge and extract the archive:
+      or use the link to download: [HuggingFace](https://huggingface.co/datasets/xioamiyh/OphNet2024) | [Baidu Netdisk](https://pan.baidu.com/s/1ajcOmPfFQKsA9QJuG5NzPw?pwd=3173). Use the following command to merge and extract the archive:
 
    operation level
    ```python
