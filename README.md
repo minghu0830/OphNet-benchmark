@@ -45,7 +45,7 @@ OphNet-benchmark
 -**data_processing**
 *  **clipper.py**: extract clips based on annotated time boundaries from untrimmed videos.
 
-### HuggingFace&Baidu Netdisk (for trimmed videos)**
+### HuggingFace&Baidu Netdisk
 ```
 OphNet2024
 ├── OphNet2024_all (≈305G, 1,969 untrimmed videos--original resolution and FPS)
