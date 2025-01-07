@@ -101,6 +101,10 @@ Coming soon...
 ## Challenge
 Coming soon...
 
+## Discussion Group
+If you have any questions about OphNet, please add this WeChat ID to the WeChat group discussion:
+<p align="center"><img width="300" alt="image" src="https://github.com/minghu0830/OphNet-benchmark/blob/main/image/wechat.jpg"></p> 
+
 ------------------------------------
 ## TO DO 
 - [x] Release untrimmed videos
