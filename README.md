@@ -33,6 +33,7 @@ OphNet-benchmark
 │   ├── OphNet2024_ori_operation_trimmed.csv
 │   ├── OphNet2024_ori_phase_trimmed.csv
 ├── data_processing
+│   ├── download.sh
 │   ├── clipper.py
 ```
 -**annotation**
@@ -43,7 +44,9 @@ OphNet-benchmark
 *  **OphNet2024_ori_operation_trimmed.csv & OphNet2024_ori_phase_trimmed.csv**: Follow the original labels without processing the tail data, similarly divided into two granularities: phase and operation.
   
 -**data_processing**
+*  **download.sh**: download files.
 *  **clipper.py**: extract clips based on annotated time boundaries from untrimmed videos.
+
 
 ### HuggingFace & Baidu Netdisk
 ```
