@@ -68,7 +68,12 @@ OphNet2024
 
 ### Download
 *  **Label Description**: The table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label](https://docs.google.com/spreadsheets/d/1p5lURkth587-lxYwd6eOSmSxPpvIqvyuOKW-4B49PT0/edit?usp=sharing)
- 
+
+*  **HuggingFace Mirror** (optional, if you are in mainland China):
+    ```python
+    export HF_ENDPOINT=https://hf-mirror.com
+    ```
+
 * **Download All**:
     ```python
     huggingface-cli download --repo-type dataset --resume-download xioamiyh/OphNet2024 --revision main --local-dir ./
@@ -80,12 +85,12 @@ OphNet2024
     bash ./download.sh
     ```
 
-     Use the following command to merge and extract the archive:
+*  **Merge and Extract the Archive**:
     ```python
     cat OphNet2024_all.tar.gz.* | tar xzvf -
     ```
 
-*  **Skip Downloading Trimmed Video** (trimming them locally with the script):
+*  **Skip Downloading Trimmed Video** (trimming videos locally with the script):
     ```python
     python data_processing/cliper.py
     ```
