@@ -67,31 +67,28 @@ OphNet2024
 *  **OphNet2024_loca_challenge_phase_trimmed.csv**: The OphNet2024_loca_challenge_phase.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_phase)
 
 ### Download
-*  **Label Description**: The table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label](https://docs.google.com/spreadsheets/d/1p5lURkth587-lxYwd6eOSmSxPpvIqvyuOKW-4B49PT0/edit?usp=sharing) 
-*  **Untrimmed Videos Download Source**: [HuggingFace](https://huggingface.co/datasets/xioamiyh/OphNet2024) | [Baidu Netdisk](https://pan.baidu.com/s/1ajcOmPfFQKsA9QJuG5NzPw?pwd=3173)
+*  **Label Description**: The table with Chinese and English versions of surgery, phase, and operation names along with their ID mappings: [OphNet2024_Label](https://docs.google.com/spreadsheets/d/1p5lURkth587-lxYwd6eOSmSxPpvIqvyuOKW-4B49PT0/edit?usp=sharing)
+ 
+* **Download All**:
+    ```python
+    huggingface-cli download --repo-type dataset --resume-download xioamiyh/OphNet2024 --revision main --local-dir ./
+    ```
+
+*  **Selective Download**: 
+    ```python
+    cd ./data_processing
+    bash ./download.sh
+    ```
 
      Use the following command to merge and extract the archive:
     ```python
     cat OphNet2024_all.tar.gz.* | tar xzvf -
     ```
 
-*  **Trimmed Videos Download Source**: run the script we provided for trimming:
+*  **Skip Downloading Trimmed Video** (trimming them locally with the script):
     ```python
     python data_processing/cliper.py
     ```
-    
-      or use the link to download: [HuggingFace](https://huggingface.co/datasets/xioamiyh/OphNet2024) | [Baidu Netdisk](https://pan.baidu.com/s/1ajcOmPfFQKsA9QJuG5NzPw?pwd=3173). Use the following command to merge and extract the archive:
-
-   operation level
-   ```python
-   cat OphNet2024_trimmed_operation.tar.gz.* | tar xzvf -
-   ```
-    phase level
-   ```python
-   cat OphNet2024_trimmed_phase.tar.gz.* | tar xzvf -
-   ```  
-<!--Accessing the OphNet dataset requires an application. If you wish to access the full dataset, please submit an [access request](https://forms.gle/GhJyQDPUrE74jLy87) and adhere to the licensing agreement. We will send the data to your specified email address.
--->
 
 ------------------------------------
 ## Baseline Experiments and Code
