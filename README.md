@@ -65,6 +65,11 @@ OphNet2024
 │   ├── OphNet2024_trimmed_phase.tar.gz.00
 │   ├── OphNet2024_trimmed_phase.tar.gz.01
 │   ├── ...
+├── Features (≈26G, features for phase/operation localization)
+│   ├── csn.tar.gz
+│   ├── slowfast101.tar.gz
+│   ├── swin_tiny.tar.gz
+│   ├── videomae.tar.gz
 ```
 *  **OphNet2024_loca_challenge_trimmed.csv**: The OphNet2024_loca_challenge.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_operation)
 *  **OphNet2024_loca_challenge_phase_trimmed.csv**: The OphNet2024_loca_challenge_phase.csv file with the version containing trimmed video names will be automatically created after running data_processing/cliper.py. (/OphNet2024_trimmed_phase)
