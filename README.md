@@ -93,7 +93,7 @@ OphNet2024
     cat OphNet2024_all.tar.gz.* | tar xzvf -
     ```
 
-*  **Skip Downloading Trimmed Video** (trimming videos locally with the script):
+*  **Skip Downloading Trimmed Video** (optional, trimming videos locally with the script):
     ```python
     python data_processing/cliper.py
     ```
