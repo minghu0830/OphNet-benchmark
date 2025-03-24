@@ -84,7 +84,14 @@ cd ../..
 4. Done! We are ready to get start!
 
 ## Prepare Datasets
-You can direct download the we have extracted ([HuggingFace]() | [Baidu Netdisk]()) , then put them into the dataset folder
+You can direct download the we have extracted
+```shell
+cd ./data_processing
+bash ./download.sh
+# set allow_patterns='Features/**'
+```
+
+then put them into the dataset folder
 
 ```bash
 cd dataset/features
@@ -178,4 +185,11 @@ python eval.py --config ./configs/medical_videomae_operation.yaml --ckpt ~/path/
 ```bash
 cd ckpt
 tensorboard --logdir=./
+```
+
+## Checkpoint
+```shell
+cd ./data_processing
+bash ./download.sh
+# set allow_patterns='Checkpoints/**'
 ```
