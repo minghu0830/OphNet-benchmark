@@ -114,8 +114,8 @@ Task 2: [Phase/Operation Localization](https://github.com/minghu0830/OphNet-benc
 Coming soon...
 
 ## Discussion Group
-If you have any questions about OphNet, please add this WeChat ID to the WeChat group discussion:
-<p align="center"><img width="300" alt="image" src="https://github.com/minghu0830/OphNet-benchmark/blob/main/image/wechat.jpg"></p> 
+If you have any questions about OphNet, please add this WeChat ID: conv-not-conv
+
 
 ------------------------------------
 ## TO DO 
