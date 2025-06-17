@@ -41,7 +41,6 @@ OphNet-benchmark
 *  **OphNet2024_loca_all.csv**: The original version of the time boundary annotations.
 *  **OphNet2024_loca_challenge.csv**: Map phase and operation labels with fewer than 15 clips to numeric IDs 51 and 106, which can be interpreted as renaming labels with fewer than 15 instances as "Others."
 *  **OphNet2024_loca_challenge_phase.csv**: A complete phase clip in OphNet2024_challenge.csv may be split due to covering multiple operations. Therefore, in OphNet2024_challenge_phase.csv, we merge consecutive clips of the same phase.
-*  **OphNet2024_ori_operation_trimmed.csv & OphNet2024_ori_phase_trimmed.csv**: Follow the original labels without processing the tail data, similarly divided into two granularities: phase and operation.
   
 -**data_processing**
 *  **download.sh**: download files.
