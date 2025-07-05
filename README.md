@@ -4,7 +4,7 @@
 
 
 ## News
-* **[Jul, 2025]** The [challenge website](https://ophnet-challenge.github.io/) is available. [MICCAI2025, APTOS2025]
+* **[Jul, 2025]** **The [challenge website](https://ophnet-challenge.github.io/) is available. [MICCAI2025, APTOS2025]**
 * **[Nov, 2024]** We have repaired several damaged videos. You can now download the dataset again.
 * **[Oct, 2024]** We realeased OphNet2024 challenge dataset ! More information can be found in Data Preparation.
 * **[Jul, 2024]** OphNet2024 is in preparation——larger scale, more accurate, and more experimental results!
